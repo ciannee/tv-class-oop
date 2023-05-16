@@ -26,7 +26,11 @@ class TV:
         return self.channel
 
     # sets a new channel for this tv
-
+    def setChannel(self):
+        if self.channel >= 1:
+            self.channel = channel
+        elif self.channel <= 120:
+            self.channel = channel
 
     # gets the volume level for this tv
 
