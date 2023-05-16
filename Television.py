@@ -5,7 +5,8 @@
 # Pseudocode:
 
 # create TV class
-
+class TV:
+    def __init__(self, channel, volume_level, switch):
     # behavior (instance methods)
 
     # turns on this tv
