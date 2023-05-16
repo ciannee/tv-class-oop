@@ -22,7 +22,8 @@ class TV:
         self.switch = False
 
     # returns the channel for this tv
-
+    def getChannel(self):
+        return self.channel
 
     # sets a new channel for this tv
 
