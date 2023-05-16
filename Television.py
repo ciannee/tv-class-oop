@@ -44,7 +44,9 @@ class TV:
             self.volume_level = self.volume_level
 
     # increases the channel number by 1
-
+    def channelUp(self):
+        if self.channel > 120:
+            self.channel += 1
 
     # decreases the channel number by 1
 
