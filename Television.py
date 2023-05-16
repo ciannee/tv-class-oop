@@ -49,7 +49,9 @@ class TV:
             self.channel += 1
 
     # decreases the channel number by 1
-
+    def channelDown(self):
+        if self.channel > 1:
+            self.channel -= 1
 
     # increases the volume level by 1
 
