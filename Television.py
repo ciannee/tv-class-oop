@@ -16,21 +16,30 @@ class TV:
     # turns on this tv
     def turnOn(self):
         self.switch = True
-        
+
     # turns off this tv
+    def turnOff(self):
+        self.switch = False
 
     # returns the channel for this tv
 
+
     # sets a new channel for this tv
+
 
     # gets the volume level for this tv
 
+
     # sets a new volume for this tv
+
 
     # increases the channel number by 1
 
+
     # decreases the channel number by 1
 
+
     # increases the volume level by 1
+
 
     # decreases the volume level by 1
