@@ -37,7 +37,11 @@ class TV:
         return self.volume_level
 
     # sets a new volume for this tv
-
+    def setVolume(self):
+        if self.volume_level >= 1:
+            self.volume_level = self.volume_level
+        elif self.volume_level <= 1:
+            self.volume_level = self.volume_level
 
     # increases the channel number by 1
 
