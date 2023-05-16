@@ -7,12 +7,16 @@
 # create TV class
 class TV:
     def __init__(self, channel, volume_level, switch):
+
     # behavior (instance methods)
     self.channel = channel
     self.volume_level = volume_level
     self.switch = switch
-    # turns on this tv
 
+    # turns on this tv
+    def turnOn(self):
+        self.switch = True
+        
     # turns off this tv
 
     # returns the channel for this tv
