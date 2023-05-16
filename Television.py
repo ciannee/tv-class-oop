@@ -33,7 +33,8 @@ class TV:
             self.channel = channel
 
     # gets the volume level for this tv
-
+    def getVolume(self):
+        return self.volume_level
 
     # sets a new volume for this tv
 
