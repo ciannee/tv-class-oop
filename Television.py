@@ -8,10 +8,10 @@
 class TV:
     def __init__(self, channel, volume_level, switch):
 
-    # behavior (instance methods)
-    self.channel = channel
-    self.volume_level = volume_level
-    self.switch = switch
+        # behavior (instance methods)
+        self.channel = channel
+        self.volume_level = volume_level
+        self.switch = switch
 
     # turns on this tv
     def turnOn(self):
